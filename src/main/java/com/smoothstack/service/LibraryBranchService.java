@@ -1,4 +1,4 @@
-package com.smoothstack.repository;
+package com.smoothstack.service;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import com.smoothstack.entity.LibraryBranch;
 
 @Service
 @Transactional
-public class LibraryBranchRepository {
+public class LibraryBranchService {
 
 	@Autowired
 	private ILibraryBranchDao branchDao;

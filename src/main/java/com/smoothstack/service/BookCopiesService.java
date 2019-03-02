@@ -1,4 +1,4 @@
-package com.smoothstack.repository;
+package com.smoothstack.service;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import com.smoothstack.entity.BookCopies;
 
 @Service
 @Transactional
-public class BookCopiesRepository {
+public class BookCopiesService {
 
 	@Autowired
 	private IBookCopiesDao bookCopiesDao;
